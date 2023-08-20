@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>progress report</title>
+</head>
+<body>
+    <h1>Your progress:</h1>
+    <div class="container">
+        <div class="column">
+            <h1>Attendance</h1>
+            <label for="txtAtt">Attended lectures:</label>
+            <input type="text" id="txtAtt"><br><br>
+            <label for="txtTot">Total lectures:</label>
+            <input type="text" id="txtTot"><br><br>
+            <input type="button" value="calculate" onclick="calc();"><br><br>
+            <label for="txtRes">Result:</label>
+            <input type="text" id="txtRes"><br><br>
+            
+            <span id="display_message" style="display: inline;"></span>
+        </div>
+        <div class="column">
+            <h1>CGPA</h1>
+            <label for="txtCgpa1">Enter 1st grade:</label>
+            <input type="text" id="txtCgpa1"><br><br>
+
+            <label for="txtCgpa2">Enter 2nd grade:</label>
+            <input type="text" id="txtCgpa2"><br><br>
+
+            <label for="txtCgpa3">Enter 3rd grade:</label>
+            <input type="text" id="txtCgpa3"><br><br>
+
+            <label for="txtCgpa4">Enter 4th grade:</label>
+            <input type="text" id="txtCgpa4"><br><br>
+
+            <label for="txtCgpa5">Enter 5th grade:</label>
+            <input type="text" id="txtCgpa5"><br><br>
+
+            <input type="button" value="calculate" onclick="calcGpa();"><br><br>
+
+            <label for="txtResult">Result:</label>
+            <input type="text" id="txtResult"><br><br>
+        </div>
+        <div class="column">
+            <h1>ECC</h1>
+            <label for="txtecc">Enter ECC required:</label>
+            <input type="text" id="txtecc"><br><br>
+            <label for="txtecc1">Enter ECC completed:</label>
+            <input type="text" id="txtecc1"><br><br>
+            <input type="button" value="calculate" onclick="calcecc();"><br><br>
+            <span id="display_messageecc" style="display: inline;"></span>
+        </div>
+    </div>
+    
+</body>
+</html>

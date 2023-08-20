@@ -1,0 +1,48 @@
+.column {
+    background-color: rgb(239, 239, 124);
+    float: left;
+    width: 30.33%;
+    border: 2px solid;
+    padding: 5px 5px 5px 5px;
+    margin-left: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 0;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  body{
+    background-color: burlywood;
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    body {
+      font-size: 16px;
+    }
+    /* Adjust the width of an element */
+    .container {
+      width: 90%;
+    }
+    .column {
+      background-color: rgb(239, 239, 124);
+      float: left;
+      width: 100%;
+      border: 2px solid;
+      padding: 5px 5px 5px 5px;
+      margin-left: 15px;
+    }
+
+  }
+  
+  
+  
+  
